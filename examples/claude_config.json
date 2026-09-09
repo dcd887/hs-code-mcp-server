@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "hs-code": {
+      "command": "python",
+      "args": ["C:/path/to/hs-code-mcp-server/server.py"],
+      "env": {}
+    }
+  }
+}
