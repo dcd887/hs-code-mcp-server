@@ -1,6 +1,6 @@
 # HS Code MCP Server
 
-> 海关商品归类智能体工具 — 基于2026年进出口税则的 MCP (Model Context Protocol) Server
+> 让 AI Agent 会查海关编码、算进口税费 —— 8972 条 2026 税则，品目 100% 覆盖
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data: 2026 Tariff](https://img.shields.io/badge/Data-2026%20Tariff-blue.svg)](https://gss.mof.gov.cn/)
@@ -9,6 +9,16 @@
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)]()
 
 将海关进出口税则封装为 MCP 工具，让 AI Agent 能够智能查询 HS 编码、计算进口税费、浏览商品分类。基于2026年最新税则数据，品目描述100%覆盖。
+
+## 🎯 它解决什么问题
+
+跨境卖家和报关行每天都在做的事：查 HS 编码、算进口关税和增值税、判断要不要许可证。以前靠人肉翻 200 多页税则，或者买付费 API。这个 MCP 让 AI Agent 直接查 8972 条 2026 年税则，返回编码、关税税率、增值税率和依据。
+
+## 💡 为什么做
+
+我自己是海关专业大三学生，做课设和实习时发现归类这件事对 AI 来说不难，但缺一份干净、结构化、能直接查的税则数据。所以把 2026 税则库拆成了 MCP 工具。
+
+---
 
 ## ✨ 功能特性
 
